@@ -36,7 +36,7 @@ Il bar avrà un client dove vedrà tutte le ordinazioni. Li potrà fare un check
 
 ## 3. Schema fisico
 
-![schema](C:\Scuola\5°\Progetti\Bot\00-Progettazione\schema.png)
+![schema](/00-Progettazione\schema.png)
 
 ## 4. Progettazione
 
@@ -70,7 +70,7 @@ La tabella backup di tutti gli ordini mi servirò per fare un'analisi dei dati p
 
 #### 4.2.1 Schema relazionale
 
-![database](C:\Scuola\5°\Progetti\Bot\00-Progettazione\database.png)
+![database](/00-Progettazione\database.png)
 
 #### 4.2.2 Schema logico
 
