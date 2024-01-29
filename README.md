@@ -133,39 +133,39 @@ Da questo sito web si potrà vedere:
 
 L'utente per interagire con il bot dovrà scrivere il comando /start. Dopo la fase di login, che avverrà solo la prima volta, avrà a disposizione due bottoni:
 
-![image-20210505192747860](C:\Users\kri3k\AppData\Roaming\Typora\typora-user-images\image-20210505192747860.png)
+![telegram](/00-Progettazione/telegram1.png)
 
 Se preme il bottone ordina compariranno tutti i prodotti che potrà ordinare. Ogni prodotto è rappresentato da un bottone, premendolo lo si aggiungerà ai tuoi ordini.
 
-![image-20210505192807658](C:\Users\kri3k\AppData\Roaming\Typora\typora-user-images\image-20210505192807658.png)
+![telegram2](/00-Progettazione/telegram2.png)
 
 Premendo il bottone "Controlla gli ordini" si potrà vedere quello che si ha ordinato quel giorno:
 
-![image-20210505192823095](C:\Users\kri3k\AppData\Roaming\Typora\typora-user-images\image-20210505192823095.png)
+![telegram3](/00-Progettazione/telegram3.png)
 
 ### 5.1 Client amministrazione
 
 Da qui si potrà modificare il database da un'interfaccia grafica
 
-![image-20210505192856618](C:\Users\kri3k\AppData\Roaming\Typora\typora-user-images\image-20210505192856618.png)
+![client-amministrazione1](/00-Progettazione/client-amministrazione1.png)
 
 
 
 Premendo su Classi si potrà aggiungere, modificare, eliminare le classi
 
-![image-20210505192911888](C:\Users\kri3k\AppData\Roaming\Typora\typora-user-images\image-20210505192911888.png)
+![client-amministrazione2](/00-Progettazione/client-amministrazione2.png)
 
 
 
 Premendo sul bottone Apri classe si potranno vedere gli utenti di quella classe e nel caso eliminarli
 
-![image-20210505192940477](C:\Users\kri3k\AppData\Roaming\Typora\typora-user-images\image-20210505192940477.png)
+![client-amministrazione3](/00-Progettazione/client-amministrazione3.png)
 
 
 
 Nella sezione Menù potrò aggiungere, modificare, eliminare i prodotti:
 
-![image-20210505193000350](C:\Users\kri3k\AppData\Roaming\Typora\typora-user-images\image-20210505193000350.png)
+![client-amministrazione4](/00-Progettazione/client-amministrazione4.png)
 
 
 
@@ -175,10 +175,10 @@ Nella sezione Menù potrò aggiungere, modificare, eliminare i prodotti:
 
 Da qui si potrà visualizzare gli ordini del giorno
 
-![image-20210505193033488](C:\Users\kri3k\AppData\Roaming\Typora\typora-user-images\image-20210505193033488.png)
+![client-bar1](/00-Progettazione/clientbar1.png)
 
 
 
 E vedere i prodotti più acquistati
 
-![image-20210505193139585](C:\Users\kri3k\AppData\Roaming\Typora\typora-user-images\image-20210505193139585.png)
+![client-bar2](/00-Progettazione/clientbar2.png)
