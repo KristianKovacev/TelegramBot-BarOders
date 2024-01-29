@@ -1,0 +1,20 @@
+.ciao {
+    max-width: 1500px;
+    height: 101500px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.buttons {
+    width: 200px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.action_btn {
+    width: 200px;
+    margin: 0 auto;
+    display: inline;
+}

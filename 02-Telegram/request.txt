@@ -1,0 +1,52 @@
+ // await request('http://localhost:52714/prodotti', function(error, res, body) {
+        //     if (!error && res.statusCode == 200) {
+        //         let temp = JSON.parse(body);
+        //         console.log("Sto per entrare nel foreach");
+        //         temp.forEach(function(x) {
+        //             console.log("ECCOLO IL PANINO: " + x.prodotto);
+        //             listaProdotti.push(x.prodotto);
+        //         });
+        //         listaProdotti.push('Indietro 🔙');
+        //         console.log("Sono uscito!");
+
+        //         console.table(listaProdotti);
+        //         console.log(listaProdotti);
+        //         console.log("Sto aggiungendo i bottoni");
+        //         opts.reply_markup = getButtonsName(listaProdotti);
+        //         console.log("Sto aggiungendo il testo");
+        //         text = 'Seleziona il prodotto:';
+
+        //     }
+        // });
+        // console.log("Sto aggiungendo i bottoni");
+        // opts.reply_markup = getButtonsName(listaProdotti);
+        // console.log("Sto aggiungendo il testo");
+        // text = 'Seleziona il prodotto:';
+        // console.log("SONO FUORI DALLA REQUEST!");
+
+        
+        // * https://stackoverflow.com/questions/38428027/why-await-is-not-working-for-node-request-module
+
+
+        // function doRequest(url) {
+//     request(url, function(error, res, body) {
+//         if (!error && res.statusCode == 200) {
+//             return body;
+//         } else {
+//             return error;
+//         }
+//     });
+// }
+
+// Faccio la richiesta all'url che gli mando
+// function doRequest(url) {
+//     return new Promise(function(resolve, reject) {
+//         request(url, function(error, res, body) {
+//             if (!error && res.statusCode == 200) {
+//                 resolve(body);
+//             } else {
+//                 reject(error);
+//             }
+//         });
+//     });
+// }

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bot bar ISII - Ordinazioni</title>
+    <meta name="description" content="Charts | Nura Admin">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your website">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/cup.ico">
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Font Awesome CSS -->
+    <link href="assets/font-awesome/css/all.css" rel="stylesheet" type="text/css" />
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- BEGIN CSS for this page -->
+    <link rel="stylesheet" type="text/css" href="assets/plugins/chart.js/Chart.min.css" />
+    <!-- END CSS for this page -->
+</head>
+
+<body class="adminbody">
+
+    <div id="main">
+
+        <!-- top bar navigation -->
+        <div class="headerbar">
+
+            <!-- LOGO -->
+            <div class="headerbar-left">
+                <a href="index.html" class="logo">
+                    <img alt="Logo" src="assets/images/cup.png" />
+                    <span>Bar ISII</span>
+                </a>
+            </div>
+
+            <nav class="navbar-custom">
+
+                <ul class="list-inline float-right mb-0">
+
+                    <li class="list-inline-item dropdown notif">
+                        <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" aria-haspopup="false" aria-expanded="false">
+                            <i class="far fa-envelope"></i>
+                            <span class="notif-bullet"></span>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right dropdown-arrow dropdown-arrow-success dropdown-lg">
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h5>
+                                    <small>
+                                        <span class="label label-danger pull-xs-right">12</span>Mailbox</small>
+                                </h5>
+                            </div>
+
+                            <!-- item-->
+                            <a class="dropdown-item notify-item">
+                                <p class="notify-details ml-0">
+                                    <b>John Doe</b>
+                                    <span>New message received</span>
+                                    <small class="text-muted">3 minutes ago</small>
+                                </p>
+                            </a>
+
+                            <!-- item-->
+                            <a class="dropdown-item notify-item">
+                                <p class="notify-details ml-0">
+                                    <b>Michael Smith</b>
+                                    <span>New message received</span>
+                                    <small class="text-muted">18 minutes ago</small>
+                                </p>
+                            </a>
+
+                            <!-- item-->
+                            <a class="dropdown-item notify-item">
+                                <p class="notify-details ml-0">
+                                    <b>John Lenons</b>
+                                    <span>New message received</span>
+                                    <small class="text-muted">Yesterday, 18:27</small>
+                                </p>
+                            </a>
+
+                            <!-- All-->
+                            <a class="dropdown-item notify-item notify-all">
+                                View All Messages
+                            </a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="list-inline-item dropdown notif">
+                        <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" aria-haspopup="false" aria-expanded="false">
+                            <i class="far fa-bell"></i>
+                            <span class="notif-bullet"></span>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right dropdown-arrow dropdown-arrow-success dropdown-lg">
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h5>
+                                    <small>
+                                        <span class="label label-danger pull-xs-right">5</span>Allerts</small>
+                                </h5>
+                            </div>
+
+                            <!-- item-->
+                            <a href="#" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-faded">
+                                    <img src="assets/images/avatars/avatar2.png" alt="img" class="rounded-circle img-fluid">
+                                </div>
+                                <p class="notify-details">
+                                    <b>John Doe</b>
+                                    <span>User registration</span>
+                                    <small class="text-muted">3 minutes ago</small>
+                                </p>
+                            </a>
+
+                            <!-- item-->
+                            <a href="#" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-faded">
+                                    <img src="assets/images/avatars/avatar3.png" alt="img" class="rounded-circle img-fluid">
+                                </div>
+                                <p class="notify-details">
+                                    <b>Michael Cox</b>
+                                    <span>Task 2 completed</span>
+                                    <small class="text-muted">12 minutes ago</small>
+                                </p>
+                            </a>
+
+                            <!-- item-->
+                            <a href="#" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-faded">
+                                    <img src="assets/images/avatars/avatar4.png" alt="img" class="rounded-circle img-fluid">
+                                </div>
+                                <p class="notify-details">
+                                    <b>Michelle Dolores</b>
+                                    <span>New job completed</span>
+                                    <small class="text-muted">35 minutes ago</small>
+                                </p>
+                            </a>
+
+                            <!-- All-->
+                            <a href="#" class="dropdown-item notify-item notify-all">
+                                View All Allerts
+                            </a>
+
+                        </div>
+                    </li>
+
+
+                    <li class="list-inline-item dropdown notif">
+                        <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" aria-haspopup="false" aria-expanded="false">
+                            <i class="fas fa-cog"></i>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right dropdown-arrow dropdown-arrow-success dropdown-sm">
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h5>
+                                    <small>Settings</small>
+                                </h5>
+                            </div>
+
+                            <!-- item-->
+                            <a href="#" class="dropdown-item notify-item">
+                                <p class="notify-details ml-0">
+                                    <i class="fas fa-cog"></i>
+                                    <b>Settings 1</b>
+                                </p>
+                            </a>
+
+                            <!-- item-->
+                            <a href="#" class="dropdown-item notify-item">
+                                <p class="notify-details ml-0">
+                                    <i class="fas fa-cog"></i>
+                                    <b>Settings 2</b>
+                                </p>
+                            </a>
+
+                            <!-- item-->
+                            <a href="#" class="dropdown-item notify-item">
+                                <p class="notify-details ml-0">
+                                    <i class="fas fa-cog"></i>
+                                    <b>Settings 3</b>
+                                </p>
+                            </a>
+
+                        </div>
+
+                    </li>
+
+
+                    <li class="list-inline-item dropdown notif">
+                        <a class="nav-link dropdown-toggle nav-user" data-toggle="dropdown" href="#" aria-haspopup="false" aria-expanded="false">
+                            <img src="assets/images/avatars/admin.png" alt="Profile image" class="avatar-rounded">
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h5 class="text-overflow">
+                                    <small>Hello, admin</small>
+                                </h5>
+                            </div>
+
+                            <!-- item-->
+                            <a href="profile.html" class="dropdown-item notify-item">
+                                <i class="fas fa-user"></i>
+                                <span>Profile</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="#" class="dropdown-item notify-item">
+                                <i class="fas fa-power-off"></i>
+                                <span>Logout</span>
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul class="list-inline menu-left mb-0">
+                    <li class="float-left">
+                        <button class="button-menu-mobile open-left">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+        <!-- End Navigation -->
+
+        <!-- Left Sidebar -->
+        <div class="left main-sidebar">
+            <div class="sidebar-inner leftscroll">
+
+                <div id="sidebar-menu">
+
+                    <ul>
+                        <li class="submenu">
+                            <a class="active" href="index.html">
+                                <i class="fas fa-bars"></i>
+                                <span> Home </span>
+                            </a>
+                        </li>
+
+                        <li class="submenu">
+                            <a href="statistiche.html">
+                                <i class="fas fa-chart-bar"></i>
+                                <span> Statistiche </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Sidebar -->
+
+        <div class="content-page">
+
+            <!-- Start content -->
+            <div class="content">
+
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="breadcrumb-holder">
+                                <h1 class="main-title float-left">Statistiche</h1>
+                                <ol class="breadcrumb float-right">
+                                    <li class="breadcrumb-item">Home</li>
+                                    <li class="breadcrumb-item active">Statistiche</li>
+                                </ol>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+
+
+
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <i class="fas fa-chart-pie"></i> Prodotti aquistati
+                                </div>
+
+                                <div class="card-body">
+                                    <canvas id="pieChart"></canvas>
+                                </div>
+                            </div>
+                            <!-- end card-->
+                        </div>
+
+
+                    </div>
+                    <!-- end row -->
+
+
+                </div>
+                <!-- END container-fluid -->
+
+            </div>
+            <!-- END content -->
+
+        </div>
+        <!-- END content-page -->
+
+        <footer class="footer">
+            <span class="text-right">                
+                Copyright <a>Company</a>
+            </span>
+            <span class="float-right">
+                
+                Powered by <a><b>Kristian Kovacev</b></a>
+            </span>
+        </footer>
+
+        <script src="assets/js/modernizr.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/moment.min.js"></script>
+
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <script src="assets/js/detect.js"></script>
+        <script src="assets/js/fastclick.js"></script>
+        <script src="assets/js/jquery.blockUI.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/admin.js"></script>
+
+    </div>
+    <!-- END main -->
+
+    <!-- BEGIN Java Script for this page -->
+    <script src="assets/plugins/chart.js/Chart.min.js"></script>
+    <!-- Charts data -->
+    <!-- <script src="assets/data/data_charts.js"></script> -->
+    <!-- END Java Script for this page -->
+
+    <script src="index.js"></script>
+    <script>
+        getStatistiche();
+
+
+        async function getStatistiche() {
+            var dati = [];
+            var labels = [];
+            // Faccio la chiamata per farmi ritornare tutti i prodotti con i loro prezzi
+            await fetch('http://localhost:52714/statistiche').then((response) => {
+                return response.json();
+            }).then((values) => {
+                // Aggiungo ogni prodotto all'array che verrà stampato sulla tabella
+                values.forEach(function(value) {
+
+                    dati.push([value.qty]);
+                    labels.push([value.nome_prodotto]);
+                });
+
+
+                // pieChart
+                var ctx_pie_chart = document.getElementById("pieChart").getContext('2d');
+                var pieChart = new Chart(ctx_pie_chart, {
+                    type: 'pie',
+                    data: {
+                        datasets: [{
+                            data: dati,
+                            backgroundColor: [
+                                '#ff0000',
+                                '#800080',
+                                '#008000',
+                                '#ffff00',
+                                '#0000ff',
+                                '#00ffff',
+                                '#ffe4c4',
+                                '#7fff00',
+                                '#556b2f',
+                                '#ff1493',
+                                '#228b22',
+                                '#ff69b4',
+                                '#4b0082',
+                                '#778899',
+                                '#ff4500',
+                                '#afeeee',
+                                '#9acd32',
+                                '#ffe4e1',
+                                '#ba55d3',
+                                '#f0e68c',
+                                '#ffd700',
+                                '#1e90ff',
+                                '#000000',
+                                '#808080',
+                                '#5f9ea0',
+                                '#ff7f50',
+                                '#ff8c00',
+                                '#b22222'
+                            ],
+                            label: 'Dataset 1'
+                        }],
+                        labels: labels
+                    },
+                    options: {
+                        responsive: true
+                    }
+
+                });
+            }).catch((error) => console.log(error))
+        }
+    </script>
+</body>
+
+</html>
